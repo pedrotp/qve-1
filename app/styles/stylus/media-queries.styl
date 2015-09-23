@@ -36,7 +36,7 @@
           margin 1.6em 0 0
           border none
           background-color transparent
-          background-image url('../images/icons/menu.png')
+          background-image url('../assets/images/icons/menu.png')
           background-size 40px
           background-repeat no-repeat
           background-position center
@@ -50,7 +50,7 @@
         transition height .2s ease-in-out
 
         &.open
-          height 189px
+          height 57px
           padding-bottom .5em
           box-shadow inset 0 -1px 2px rgba(0,0,0,0.05)
 
@@ -119,6 +119,7 @@
         ul
           margin-top 5px
           padding 0 .2em
+
           li.company
             width 33.33%
             padding .2em
@@ -126,22 +127,19 @@
 
             .wrapper
               border-width 1px
-              height 110px
 
               &:hover
                 box-shadow none
 
               .link
-                padding 0
-
                 .acquired
-                  display none
+                  p
+                    padding .5em
+                    font-size .6em
 
                 .companyLogo
                   background-size 80%
-                  width 110px
-                  height 110px
-                  margin auto
+                  margin 1em auto
 
               span
                 display none
@@ -212,9 +210,6 @@
         li.company
           width 25% !important
 
-          .wrapper
-            height 22vw
-
 @media (max-width: 960px) and (min-width: 700px)
   .companies
     .content
@@ -222,15 +217,9 @@
         li.company
           width 33% !important
 
-          .wrapper
-            height 27.11vw
-
 @media (max-width: 699px) and (min-width: 481px)
   .companies
       .content
         ul
           li.company
             width 50% !important
-
-            .wrapper
-              height 38.61vw
