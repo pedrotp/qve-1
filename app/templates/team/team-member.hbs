@@ -1,8 +1,8 @@
 <h1>{{name}}</h1>
 <div class="social">
   <ul>
-    {{#if linkedIn}}<li><a class="linkedIn" {{bind-attr href=linkedIn}}></a></li>{{/if}}
-    {{#if twitter}}<li><a class="twitter"  {{bind-attr href=twitter}}></a></li>{{/if}}
+    {{#if linkedIn}}<li><a class="linkedIn" href={{linkedIn}}></a></li>{{/if}}
+    {{#if twitter}}<li><a class="twitter"  href={{twitter}}></a></li>{{/if}}
   </ul>
 </div>
 <p class="title">{{title}}</p>
