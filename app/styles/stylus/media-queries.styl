@@ -1,0 +1,236 @@
+@media only screen and (max-device-width: 480px)
+
+  $i = !important
+
+  body
+    padding 0 $i
+
+    nav
+      padding 0 $i
+
+      .mobileTop
+        float left
+        display inline-block
+        border-bottom 1px solid #eee
+        box-shadow 0 1px 2px rgba(0,0,0,0.1)
+
+        a.logo
+          width 70%
+          margin 0.5em 0
+          float left
+
+          img
+            &.pinwheel, &.logoType
+              display none
+
+            &.phoneLogo
+              width 90%
+              margin .4em auto
+              display block $i
+
+        .mobileNav
+          display block $i
+          float right
+          height 7em
+          width 20%
+          margin 1.6em 0 0
+          border none
+          background-color transparent
+          background-image url('../images/icons/menu.png')
+          background-size 40px
+          background-repeat no-repeat
+          background-position center
+
+      ul.headerNav
+        background-color #fafafa
+        float left
+        width 100%
+        height 0px
+        overflow hidden
+        transition height .2s ease-in-out
+
+        &.open
+          height 189px
+          padding-bottom .5em
+          box-shadow inset 0 -1px 2px rgba(0,0,0,0.05)
+
+        li
+          width 100%
+
+          a
+            font-weight 300
+            width 100%
+            padding 1em 0
+            text-align center
+
+    footer
+      ul
+        width 100%
+
+        &.org
+          border-bottom 1px solid #eee
+
+        li
+          width 100%
+
+          a
+            box-sizing content-box
+            padding 1em 0
+            line-height 40px
+            font-size 1.2em
+            text-align center
+            width 100%
+
+    .index
+      .content
+        h1
+          font-size 1.9em
+          margin 2em 1.2em
+
+          span#indexCycle
+            height 41px
+            font-size 1.2em
+            margin-bottom -9px
+
+            span.indexCycleWrapper
+              height 40px
+              width 186px
+
+              a
+                text-align left $i
+
+          br
+            display none
+
+        .subIndex
+          margin 15vh 0 0
+
+          ul.subNav
+            width 75%
+            padding .5em 0
+
+            li
+              float none
+
+              margin 1.5em 0
+
+    .companies
+      .content
+        ul
+          margin-top 5px
+          padding 0 .2em
+          li.company
+            width 33.33%
+            padding .2em
+            box-sizing border-box
+
+            .wrapper
+              border-width 1px
+              height 110px
+
+              &:hover
+                box-shadow none
+
+              .link
+                padding 0
+
+                .acquired
+                  display none
+
+                .companyLogo
+                  background-size 80%
+                  width 110px
+                  height 110px
+                  margin auto
+
+              span
+                display none
+
+            &:last-of-type
+              .wrapper
+                border-bottom-width 1px
+
+    .team
+      .content
+        .list
+          width 100%
+          ul
+            margin 0 2em 1.5em
+            padding .5em 0 1em
+            border-bottom 1px solid #eee
+
+            li
+              a
+                display block
+                font-size 1.5em
+                text-align center
+                margin .4em
+
+        .teamBlock
+          width 100%
+          padding 0 2em
+          box-sizing border-box
+          float left
+          display inline-block
+
+          h1
+            width 100%
+            margin .5em 0
+
+          .social
+            ul
+              li
+                a
+                  opacity 1
+
+          .title
+            padding 0
+            clear initial
+            width auto
+            float left
+            display inline-block
+
+          .image
+            width 110%
+            margin 2em -1em
+
+          p
+            width 100%
+            padding 0
+
+@media (min-width: 1140px)
+  .companies
+    .content
+      ul
+        li.company
+          width 20% !important
+
+@media (max-width: 1139px) and (min-width: 961px)
+  .companies
+    .content
+      ul
+        li.company
+          width 25% !important
+
+          .wrapper
+            height 22vw
+
+@media (max-width: 960px) and (min-width: 700px)
+  .companies
+    .content
+      ul
+        li.company
+          width 33% !important
+
+          .wrapper
+            height 27.11vw
+
+@media (max-width: 699px) and (min-width: 481px)
+  .companies
+      .content
+        ul
+          li.company
+            width 50% !important
+
+            .wrapper
+              height 38.61vw

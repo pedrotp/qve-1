@@ -1,0 +1,107 @@
+$columns = 5
+$width = (100/$columns)%
+
+.team
+  min-height 90%
+  display inline-block
+
+  .content
+    min-height 73vh
+    .list
+      width 1*$width
+      float left
+
+      ul
+        padding 0
+        list-style-type none
+        margin-bottom 1.5em
+
+        li
+          &.header
+            font-weight 400
+            margin-bottom .5em
+            color #444
+
+          a
+            font-size 1.2em
+            font-family "Merriweather", serif
+            font-style italic
+            color #ddd
+            line-height 1.7
+
+            &.active
+              color black
+
+    .teamBlock
+      width 4*$width
+      float right
+
+      h1
+        margin 5px 0 1px 50px
+        float left
+
+      p
+        bodyCopy()
+        margin 0
+        padding 0 3em
+        box-sizing border-box
+        float left
+        font-size 1.1em
+        line-height 1.5
+        font-weight 300
+
+        &.title
+          clear left
+          line-height 2.3
+          font-family 'Roboto', sans-serif
+
+      .social
+        float right
+        display inline-block
+
+        ul
+          display inline-block
+          padding 0
+          list-style-type none
+          margin 3px 0 0 0
+          float left
+
+          li
+            float left
+            margin-right 9px
+
+            &:last-of-type
+              margin-right 0
+
+            a
+              float left
+              height 40px
+              width 40px
+              background-repeat no-repeat
+              background-position center
+              display inline-block
+              margin 0
+              opacity 0.2
+              transition opacity .15s ease-in-out
+
+              &:hover
+                opacity 1
+
+              &.linkedIn
+                background-size 30px
+                background-image url("../images/icons/linkedIn.png")
+
+              &.twitter
+                background-size cover
+                background-image url("../images/icons/twitter.png")
+
+      .image
+        float left
+        margin 10px 20px 30px 20px
+        width 100%
+
+        img
+          transition margin-top 0.5s ease-in-out
+          width 100%
+          clear both
+          display block

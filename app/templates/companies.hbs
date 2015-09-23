@@ -1,0 +1,36 @@
+<div class="companies">
+  <div class="content">
+    {{!-- <p class="bodyCopy">Quotidian works with companies poised to transform their industries through experience and expertise.</p> --}}
+    <ul>
+      {{#each model as |companies|}}
+        {{#if companies.live}}
+          <li class="company">
+            <div class="wrapper">
+              <a {{bind-attr href="companies.url"}} class="link">
+                {{#if companies.acquired}}
+                  <div class="acquired"><p>Acquired</p></div>
+                {{/if}}
+                {{#if companies.photo}}
+                  <div class="companyLogo" {{bind-attr style='companies.photoUrl'}}></div>
+                {{/if}}
+                <span class="info">
+                  <p><b>{{companies.name}}</b></p>
+                  <p class="companyLocation">{{companies.location}}</p>
+                  {{#if companies.acquired}}
+                    <p class="acquiredBy">Acquired by {{companies.acquired}}</p>
+                  {{/if}}
+                </span>
+              </a>
+              <span class="social">
+                <ul>
+                  <li><a {{bind-attr href="companies.twitter"}} class="twitter"></a></li>
+                  <li><a {{bind-attr href="companies.angelList"}} class="angelList"></a></li>
+                </ul>
+              </span>
+            </div>
+          </li>
+        {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+</div>

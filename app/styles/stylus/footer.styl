@@ -1,0 +1,49 @@
+footer
+  border-top 1px solid black
+  display inline-block
+  width 100%
+  padding 10px
+  box-sizing border-box
+  background white
+  margin-top 5vh
+
+  ul
+    padding 0
+    list-style-type none
+    margin 0
+
+    li
+      a
+        height 40px
+        float left
+        padding 10px 0
+        box-sizing border-box
+
+        &:hover
+          font-weight 300
+
+    &.org
+      float left
+
+    &.social
+      float right
+
+      li
+        a
+          &.twitter
+            width 40px
+            background-size cover
+            display inline-block
+            background-image url("../images/icons/twitter.png")
+
+    li
+      float left
+      margin-right 1em
+
+.index, .news, .about, .careers
+  footer
+    position absolute
+    width initial
+    left 50px
+    right 50px
+    bottom 0
