@@ -17,17 +17,6 @@ var Companies = DS.Model.extend({
 Companies.reopenClass({
   FIXTURES : [
     {
-      id:1,
-      live:true,
-      name:"WeHostels",
-      acquired:"StudentUniverse",
-      photo:"assets/images/companies/weHostels.png",
-      location:"New York, NY",
-      url:"http://www.wehostels.com",
-      twitter:"http://twitter.com/wehostels",
-      angelList:"http://angel.co/wehostels'"
-    },
-    {
       id:2,
       live:true,
       name:"BrightNest",
@@ -37,6 +26,17 @@ Companies.reopenClass({
       url:"http://brightnest.com/",
       twitter:"http://twitter.com/brightnest",
       angelList:"http://angel.co/brightnest'"
+    },
+    {
+      id:54,
+      live:true,
+      name:"Cruise Automation",
+      acquired:"General Motors",
+      photo:"assets/images/companies/cruise.png",
+      location:"San Francisco, CA",
+      url:"http://www.getcruise.com",
+      twitter:"http://twitter.com/cruise",
+      angelList:"https://angel.co/cruise-automation"
     },
     {
       id:3,
@@ -61,6 +61,28 @@ Companies.reopenClass({
       angelList:"http://angel.co/hitpost'"
     },
     {
+      id:27,
+      live:true,
+      name:"IMRSV",
+      acquired:"Kairos",
+      photo:"assets/images/companies/imrsv.png",
+      location:"New York, NY",
+      url:"http://www.imrsv.com",
+      twitter:"http://twitter.com/imrsv",
+      angelList:"http://angel.co/imrsv'"
+    },
+    {
+      id:30,
+      live:true,
+      name:"LaunchRock",
+      acquired:"Fundable",
+      photo:"assets/images/companies/launchRock.png",
+      location:"San Francisco, CA",
+      url:"http://www.launchrock.com",
+      twitter:"http://twitter.com/launchrock",
+      angelList:"http://angel.co/launchrock'"
+    },
+    {
       id:5,
       live:true,
       name:"LawPivot",
@@ -82,6 +104,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/locu'"
     },
     {
+      id:1,
+      live:true,
+      name:"Patterns",
+      acquired:"Buzzfeed",
+      photo:"assets/images/companies/patterns.png",
+      location:"New York, NY",
+      url:"http://www.buzzfeed.com",
+      twitter:"",
+      angelList:""
+    },
+    {
       id:7,
       live:true,
       name:"SnapJoy",
@@ -91,6 +124,17 @@ Companies.reopenClass({
       url:"http://www.snapjoy.com",
       twitter:"http://twitter.com/snapjoy",
       angelList:"http://angel.co/snapjoy'"
+    },
+    {
+      id:39,
+      live:true,
+      name:"SponsorHub",
+      acquired:"Rentrak",
+      photo:"assets/images/companies/sponsorHub.png",
+      location:"New York, NY",
+      url:"http://www.sponsorhub.com",
+      twitter:"http://twitter.com/sponsorhub",
+      angelList:"http://angel.co/sponsorhub'"
     },
     {
       id:8,
@@ -104,6 +148,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/stypi'"
     },
     {
+      id:42,
+      live:true,
+      name:"TapAd",
+      acquired:"Telenor",
+      photo:"assets/images/companies/tapAd.png",
+      location:"New York, NY",
+      url:"http://www.tapad.com",
+      twitter:"http://twitter.com/tapad",
+      angelList:"http://angel.co/tapad'"
+    },
+    {
       id:9,
       live:true,
       name:"TapEngage",
@@ -113,6 +168,39 @@ Companies.reopenClass({
       url:"http://www.tapengage.com",
       twitter:"http://twitter.com/tapengage",
       angelList:"http://angel.co/stypi'"
+    },
+    {
+      id:10,
+      live:true,
+      name:"WeHostels",
+      acquired:"StudentUniverse",
+      photo:"assets/images/companies/weHostels.png",
+      location:"New York, NY",
+      url:"http://www.wehostels.com",
+      twitter:"http://twitter.com/wehostels",
+      angelList:"http://angel.co/wehostels'"
+    },
+    {
+      id:46,
+      live:true,
+      name:"Versa",
+      acquired:"Change.org",
+      photo:"assets/images/companies/versa.png",
+      location:"New York, NY",
+      url:"http://www.versahq.com",
+      twitter:"http://twitter.com/versa",
+      angelList:"http://angel.co/versa'"
+    },
+    {
+      id:48,
+      live:true,
+      name:"Wallaby",
+      acquired:"Bankrate",
+      photo:"assets/images/companies/wallaby.png",
+      location:"Passadena, CA",
+      url:"http://www.walla.by",
+      twitter:"http://twitter.com/wallabycard",
+      angelList:"http://angel.co/wallaby-financial'"
     },
     {
       id:10,
@@ -181,6 +269,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/bench'"
     },
     {
+      id:53,
+      live:true,
+      name:"Bluesmart",
+      acquired:"",
+      photo:"assets/images/companies/bluesmart.png",
+      location:"New York, NY",
+      url:"http://www.bluesmart.com",
+      twitter:"http://twitter.com/bluesmart",
+      angelList:"https://angel.co/bluesmart"
+    },
+    {
       id:16,
       live:false,
       name:"Brass Monkey",
@@ -201,6 +300,17 @@ Companies.reopenClass({
       url:"http://www.bringmethat.com",
       twitter:"http://twitter.com/bringmethat",
       angelList:"http://angel.co/bringmethat'"
+    },
+    {
+      id:52,
+      live:true,
+      name:"Chargehound",
+      acquired:"",
+      photo:"assets/images/companies/chargehound.png",
+      location:"Oakland, CA",
+      url:"http://www.chargehound.com",
+      twitter:"http://twitter.com/chargehound",
+      angelList:"https://angel.co/chargehound"
     },
     {
       id:18,
@@ -301,17 +411,6 @@ Companies.reopenClass({
       angelList:"http://angel.co/ideame'"
     },
     {
-      id:27,
-      live:true,
-      name:"IMRSV",
-      acquired:"Kairos",
-      photo:"assets/images/companies/imrsv.png",
-      location:"New York, NY",
-      url:"http://www.imrsv.com",
-      twitter:"http://twitter.com/imrsv",
-      angelList:"http://angel.co/imrsv'"
-    },
-    {
       id:28,
       live:true,
       name:"Keychain Logistics",
@@ -331,17 +430,6 @@ Companies.reopenClass({
       location:"New York, NY",
       twitter:"http://twitter.com/knodes",
       angelList:"http://angel.co/knodes'"
-    },
-    {
-      id:30,
-      live:true,
-      name:"LaunchRock",
-      acquired:"Fundable",
-      photo:"assets/images/companies/launchRock.png",
-      location:"San Francisco, CA",
-      url:"http://www.launchrock.com",
-      twitter:"http://twitter.com/launchrock",
-      angelList:"http://angel.co/launchrock'"
     },
     {
       id:31,
@@ -366,16 +454,6 @@ Companies.reopenClass({
       angelList:"http://angel.co/matchbook'"
     },
     {
-      id:33,
-      live:true,
-      name:"Memoir",
-      acquired:"",
-      photo:"assets/images/companies/memoir.png",
-      location:"New York, NY",
-      twitter:"http://twitter.com/memoir",
-      angelList:"http://angel.co/memoir'"
-    },
-    {
       id:34,
       live:false,
       name:"Moveline",
@@ -398,6 +476,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/nestio'"
     },
     {
+      id:55,
+      live:true,
+      name:"Noteworth",
+      acquired:"",
+      photo:"assets/images/companies/noteworth.png",
+      location:"Hoboken, NJ",
+      url:"http://www.noteworth.com",
+      twitter:"http://twitter.com/noteworth_",
+      angelList:"https://angel.co/noteworth"
+    },
+    {
       id:36,
       live:true,
       name:"Paintzen",
@@ -409,7 +498,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/paintzen'"
     },
     {
-      id:37,
+      id:38,
       live:true,
       name:"SmartAsset",
       acquired:"",
@@ -428,17 +517,6 @@ Companies.reopenClass({
       location:"New York, NY",
       twitter:"http://twitter.com/smileback",
       angelList:"http://angel.co/smileback'"
-    },
-    {
-      id:39,
-      live:true,
-      name:"SponsorHub",
-      acquired:"Rentrak",
-      photo:"assets/images/companies/sponsorHub.png",
-      location:"New York, NY",
-      url:"http://www.sponsorhub.com",
-      twitter:"http://twitter.com/sponsorhub",
-      angelList:"http://angel.co/sponsorhub'"
     },
     {
       id:40,
@@ -463,18 +541,18 @@ Companies.reopenClass({
       angelList:"http://angel.co/tagstand'"
     },
     {
-      id:42,
+      id:43,
       live:true,
-      name:"TapAd",
-      acquired:"Telenor",
-      photo:"assets/images/companies/tapAd.png",
+      name:"Ten Thousand",
+      acquired:"",
+      photo:"assets/images/companies/tenthousand.png",
       location:"New York, NY",
-      url:"http://www.tapad.com",
-      twitter:"http://twitter.com/tapad",
-      angelList:"http://angel.co/tapad'"
+      url:"https://www.tenthousand.cc/",
+      twitter:"https://twitter.com/10000apparel",
+      angelList:"https://angel.co/ten-thousand"
     },
     {
-      id:43,
+      id:44,
       live:true,
       name:"Thinkful",
       acquired:"",
@@ -485,7 +563,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/thinkful'"
     },
     {
-      id:44,
+      id:45,
       live:false,
       name:"ThinkUp",
       acquired:"",
@@ -496,18 +574,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/anil-dash'"
     },
     {
-      id:45,
+      id:33,
       live:true,
-      name:"Versa",
-      acquired:"Change.org",
-      photo:"assets/images/companies/versa.png",
+      name:"Veri",
+      acquired:"",
+      photo:"assets/images/companies/veri.png",
       location:"New York, NY",
-      url:"http://www.versahq.com",
-      twitter:"http://twitter.com/versa",
-      angelList:"http://angel.co/versa'"
+      twitter:"http://twitter.com/getveri",
+      angelList:"http://angel.co/memoir"
     },
     {
-      id:46,
+      id:47,
       live:true,
       name:"Videolicious",
       acquired:"",
@@ -518,18 +595,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/videolicious'"
     },
     {
-      id:47,
-      live:true,
-      name:"Wallaby",
-      acquired:"Bankrate",
-      photo:"assets/images/companies/wallaby.png",
-      location:"Passadena, CA",
-      url:"http://www.walla.by",
-      twitter:"http://twitter.com/wallabycard",
-      angelList:"http://angel.co/wallaby-financial'"
-    },
-    {
-      id:48,
+      id:49,
       live:true,
       name:"WePow",
       acquired:"",
@@ -540,7 +606,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/wepow'"
     },
     {
-      id:49,
+      id:50,
       live:true,
       name:"YesGraph",
       acquired:"",
@@ -551,7 +617,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/yesgraph'"
     },
     {
-      id:50,
+      id:51,
       live:true,
       name:"Zerply",
       acquired:"",
@@ -560,72 +626,6 @@ Companies.reopenClass({
       url:"http://www.zerply.com",
       twitter:"http://twitter.com/zerply",
       angelList:"http://angel.co/zerply'"
-    },
-    {
-      id:51,
-      live:true,
-      name:"Patterns",
-      acquired:"Buzzfeed",
-      photo:"assets/images/companies/patterns.png",
-      location:"New York, NY",
-      url:"http://www.buzzfeed.com",
-      twitter:"",
-      angelList:""
-    },
-    {
-      id:52,
-      live:true,
-      name:"Chargehound",
-      acquired:"",
-      photo:"assets/images/companies/chargehound.png",
-      location:"Oakland, CA",
-      url:"http://www.chargehound.com",
-      twitter:"http://twitter.com/chargehound",
-      angelList:"https://angel.co/chargehound"
-    },
-    {
-      id:53,
-      live:true,
-      name:"Bluesmart",
-      acquired:"",
-      photo:"assets/images/companies/bluesmart.png",
-      location:"New York, NY",
-      url:"http://www.bluesmart.com",
-      twitter:"http://twitter.com/bluesmart",
-      angelList:"https://angel.co/bluesmart"
-    },
-    {
-      id:54,
-      live:true,
-      name:"Cruise Automation",
-      acquired:"General Motors",
-      photo:"assets/images/companies/cruise.png",
-      location:"San Francisco, CA",
-      url:"http://www.getcruise.com",
-      twitter:"http://twitter.com/cruise",
-      angelList:"https://angel.co/cruise-automation"
-    },
-    {
-      id:55,
-      live:true,
-      name:"Noteworth",
-      acquired:"",
-      photo:"assets/images/companies/noteworth.png",
-      location:"Hoboken, NJ",
-      url:"http://www.noteworth.com",
-      twitter:"http://twitter.com/noteworth_",
-      angelList:"https://angel.co/noteworth"
-    },
-    {
-      id:56,
-      live:true,
-      name:"Ten Thousand",
-      acquired:"",
-      photo:"assets/images/companies/tenthousand.png",
-      location:"New York, NY",
-      url:"https://www.tenthousand.cc/",
-      twitter:"https://twitter.com/10000apparel",
-      angelList:"https://angel.co/ten-thousand"
     }
   ]
 });
