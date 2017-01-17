@@ -38,6 +38,7 @@
     "ember-export-application-global": "^1.0.2"
   },
   "dependencies": {
-    "ember": "^0.9.8"
+    "ember": "^0.9.8",
+    "ember-cli": "^2.10.0"
   }
 }
