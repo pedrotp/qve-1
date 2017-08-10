@@ -214,7 +214,7 @@ Companies.reopenClass({
       angelList:"http://angel.co/wallaby-financial'"
     },
     {
-      id:50,
+      id:51,
       live:true,
       name:"YesGraph",
       acquired:"Lyft",
