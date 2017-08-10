@@ -39,6 +39,17 @@ Companies.reopenClass({
       angelList:"https://angel.co/cruise-automation"
     },
     {
+      id:25,
+      live:true,
+      name:"FieldLens",
+      acquired:"WeWork",
+      photo:"assets/images/companies/fieldLens.png",
+      location:"New York, NY",
+      url:"http://www.fieldlens.com",
+      twitter:"http://twitter.com/fieldlens",
+      angelList:"http://angel.co/fieldlens'"
+    },
+    {
       id:3,
       live:true,
       name:"Grand St.",
@@ -170,17 +181,6 @@ Companies.reopenClass({
       angelList:"http://angel.co/stypi'"
     },
     {
-      id:10,
-      live:true,
-      name:"WeHostels",
-      acquired:"StudentUniverse",
-      photo:"assets/images/companies/weHostels.png",
-      location:"New York, NY",
-      url:"http://www.wehostels.com",
-      twitter:"http://twitter.com/wehostels",
-      angelList:"http://angel.co/wehostels'"
-    },
-    {
       id:46,
       live:true,
       name:"Versa",
@@ -192,6 +192,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/versa'"
     },
     {
+      id:10,
+      live:true,
+      name:"WeHostels",
+      acquired:"StudentUniverse",
+      photo:"assets/images/companies/weHostels.png",
+      location:"New York, NY",
+      url:"http://www.wehostels.com",
+      twitter:"http://twitter.com/wehostels",
+      angelList:"http://angel.co/wehostels'"
+    },
+    {
       id:48,
       live:true,
       name:"Wallaby",
@@ -201,6 +212,17 @@ Companies.reopenClass({
       url:"http://www.walla.by",
       twitter:"http://twitter.com/wallabycard",
       angelList:"http://angel.co/wallaby-financial'"
+    },
+    {
+      id:50,
+      live:true,
+      name:"YesGraph",
+      acquired:"Lyft",
+      photo:"assets/images/companies/yesGraph.png",
+      location:"San Francisco, CA",
+      url:"http://www.yesgraph.com",
+      twitter:"http://twitter.com/yesgraph",
+      angelList:"http://angel.co/yesgraph'"
     },
     {
       id:10,
@@ -389,17 +411,6 @@ Companies.reopenClass({
       angelList:"http://angel.co/faithstreet'"
     },
     {
-      id:25,
-      live:true,
-      name:"FieldLens",
-      acquired:"",
-      photo:"assets/images/companies/fieldLens.png",
-      location:"New York, NY",
-      url:"http://www.fieldlens.com",
-      twitter:"http://twitter.com/fieldlens",
-      angelList:"http://angel.co/fieldlens'"
-    },
-    {
       id:26,
       live:false,
       name:"IdeaMe",
@@ -412,7 +423,7 @@ Companies.reopenClass({
     },
     {
       id:28,
-      live:true,
+      live:false,
       name:"Keychain Logistics",
       acquired:"",
       photo:"assets/images/companies/keychainLogistics.png",
@@ -433,7 +444,7 @@ Companies.reopenClass({
     },
     {
       id:31,
-      live:true,
+      live:false,
       name:"Loverly",
       acquired:"",
       photo:"assets/images/companies/loverly.png",
@@ -607,17 +618,6 @@ Companies.reopenClass({
     },
     {
       id:50,
-      live:true,
-      name:"YesGraph",
-      acquired:"",
-      photo:"assets/images/companies/yesGraph.png",
-      location:"San Francisco, CA",
-      url:"http://www.yesgraph.com",
-      twitter:"http://twitter.com/yesgraph",
-      angelList:"http://angel.co/yesgraph'"
-    },
-    {
-      id:51,
       live:true,
       name:"Zerply",
       acquired:"",
