@@ -591,6 +591,7 @@ Companies.reopenClass({
       acquired:"",
       photo:"assets/images/companies/veri.png",
       location:"New York, NY",
+      url: "https://www.veri.com/",
       twitter:"http://twitter.com/getveri",
       angelList:"http://angel.co/memoir"
     },
