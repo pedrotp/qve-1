@@ -17,6 +17,17 @@ var Companies = DS.Model.extend({
 Companies.reopenClass({
   FIXTURES : [
     {
+      id:14,
+      live:true,
+      name:"August",
+      acquired:"Assa Abloy",
+      photo:"assets/images/companies/august.png",
+      location:"San Francisco, CA",
+      url:"http://www.august.com",
+      twitter:"http://twitter.com/AugustSmartLock",
+      angelList:"http://angel.co/august-2'"
+    },
+    {
       id:2,
       live:true,
       name:"BrightNest",
@@ -267,17 +278,6 @@ Companies.reopenClass({
       url:"http://www.adcade.com",
       twitter:"http://twitter.com/adcade",
       angelList:"http://angel.co/adcade'"
-    },
-    {
-      id:14,
-      live:true,
-      name:"August",
-      acquired:"",
-      photo:"assets/images/companies/august.png",
-      location:"San Francisco, CA",
-      url:"http://www.august.com",
-      twitter:"http://twitter.com/AugustSmartLock",
-      angelList:"http://angel.co/august-2'"
     },
     {
       id:15,
