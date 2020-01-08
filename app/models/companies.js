@@ -126,6 +126,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/locu'"
     },
     {
+      id:36,
+      live:true,
+      name:"Paintzen",
+      acquired:"PPG",
+      photo:"assets/images/companies/paintzen.png",
+      location:"New York, NY",
+      url:"http://www.paintzen.com",
+      twitter:"http://twitter.com/paintzen",
+      angelList:"http://angel.co/paintzen'"
+    },
+    {
       id:1,
       live:true,
       name:"Patterns",
@@ -192,6 +203,28 @@ Companies.reopenClass({
       angelList:"http://angel.co/stypi'"
     },
     {
+      id:44,
+      live:true,
+      name:"Thinkful",
+      acquired:"Chegg",
+      photo:"assets/images/companies/thinkful.png",
+      location:"New York, NY",
+      url:"http://www.thinkful.com",
+      twitter:"http://twitter.com/thinkful",
+      angelList:"http://angel.co/thinkful'"
+    },
+    {
+      id:33,
+      live:true,
+      name:"Veri",
+      acquired:"XO Group",
+      photo:"assets/images/companies/veri.png",
+      location:"New York, NY",
+      url: "https://www.veri.com/",
+      twitter:"http://twitter.com/getveri",
+      angelList:"http://angel.co/memoir"
+    },
+    {
       id:46,
       live:true,
       name:"Versa",
@@ -201,6 +234,17 @@ Companies.reopenClass({
       url:"http://www.versahq.com",
       twitter:"http://twitter.com/versa",
       angelList:"http://angel.co/versa'"
+    },
+    {
+      id:47,
+      live:true,
+      name:"Videolicious",
+      acquired:"Squarespace",
+      photo:"assets/images/companies/videolicious.png",
+      location:"New York, NY",
+      url:"http://www.videolicious.com",
+      twitter:"http://twitter.com/videolicious",
+      angelList:"http://angel.co/videolicious'"
     },
     {
       id:10,
@@ -292,7 +336,7 @@ Companies.reopenClass({
     },
     {
       id:53,
-      live:true,
+      live:false,
       name:"Bluesmart",
       acquired:"",
       photo:"assets/images/companies/bluesmart.png",
@@ -368,7 +412,7 @@ Companies.reopenClass({
     },
     {
       id:21,
-      live:true,
+      live:false,
       name:"Comprehend",
       acquired:"",
       photo:"assets/images/companies/comprehend.png",
@@ -498,17 +542,6 @@ Companies.reopenClass({
       angelList:"https://angel.co/noteworth"
     },
     {
-      id:36,
-      live:true,
-      name:"Paintzen",
-      acquired:"",
-      photo:"assets/images/companies/paintzen.png",
-      location:"New York, NY",
-      url:"http://www.paintzen.com",
-      twitter:"http://twitter.com/paintzen",
-      angelList:"http://angel.co/paintzen'"
-    },
-    {
       id:38,
       live:true,
       name:"SmartAsset",
@@ -563,17 +596,6 @@ Companies.reopenClass({
       angelList:"https://angel.co/ten-thousand"
     },
     {
-      id:44,
-      live:true,
-      name:"Thinkful",
-      acquired:"",
-      photo:"assets/images/companies/thinkful.png",
-      location:"New York, NY",
-      url:"http://www.thinkful.com",
-      twitter:"http://twitter.com/thinkful",
-      angelList:"http://angel.co/thinkful'"
-    },
-    {
       id:45,
       live:false,
       name:"ThinkUp",
@@ -583,28 +605,6 @@ Companies.reopenClass({
       url:"http://www.thinkup.com",
       twitter:"http://twitter.com/thinkup",
       angelList:"http://angel.co/anil-dash'"
-    },
-    {
-      id:33,
-      live:true,
-      name:"Veri",
-      acquired:"",
-      photo:"assets/images/companies/veri.png",
-      location:"New York, NY",
-      url: "https://www.veri.com/",
-      twitter:"http://twitter.com/getveri",
-      angelList:"http://angel.co/memoir"
-    },
-    {
-      id:47,
-      live:true,
-      name:"Videolicious",
-      acquired:"",
-      photo:"assets/images/companies/videolicious.png",
-      location:"New York, NY",
-      url:"http://www.videolicious.com",
-      twitter:"http://twitter.com/videolicious",
-      angelList:"http://angel.co/videolicious'"
     },
     {
       id:49,
