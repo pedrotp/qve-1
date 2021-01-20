@@ -455,6 +455,17 @@ Companies.reopenClass({
       angelList:"http://angel.co/faithstreet'"
     },
     {
+      id:56,
+      live:true,
+      name:"GitDuck",
+      acquired:"",
+      photo:"assets/images/companies/GitDuck.png",
+      location:"San Francisco, CA / Remote",
+      url:"https://gitduck.com",
+      twitter:"http://twitter.com/gitduckhq",
+      angelList:"https://angel.co/gitduck"
+    },
+    {
       id:26,
       live:false,
       name:"IdeaMe",
